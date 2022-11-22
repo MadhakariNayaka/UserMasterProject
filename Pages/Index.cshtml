@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Login Page";
+}
+<link rel="stylesheet" href="/css/site.css">
+
+<form action="/Clients/Index">
+      <h1>Login</h1>
+      <table class="nm">
+        <tr class="first">
+          <td><h3>Username</h3></td>
+          <td><input type="text" name="username" placeholder="Enter your Username" required /></td>
+        </tr>
+        <tr>
+          <td><h3>Password</h3></td>
+          <td><input type="password" name="password" placeholder="Enter your Password" required /></td>
+        </tr>
+      </table>
+      <br />
+      <br />
+    <button class="show" type="submit">Login</button>
+    </form>
