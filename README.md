@@ -1,5 +1,3 @@
-This project uses Java, SQL, Html, Css, JDBC and Java Servlet for basic CRUD Operations
-
 Firstly If any user want to run this project The user have to create Database name called 'Clients' in Mysql Then user have to create Table name called 'mystore' in Mysql
 Tables: 
 insert into student: 
